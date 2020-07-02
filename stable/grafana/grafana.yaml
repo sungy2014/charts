@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana-test
   namespace: default
 ---
@@ -18,7 +18,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana
   namespace: default
 ---
@@ -30,7 +30,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana-test
   namespace: default
 rules:
@@ -51,7 +51,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana
   namespace: default
 rules:
@@ -72,7 +72,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana-clusterrole
 rules: []
 ---
@@ -84,7 +84,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana-test
   namespace: default
 roleRef:
@@ -104,7 +104,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana
   namespace: default
 roleRef:
@@ -124,7 +124,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana-clusterrolebinding
 roleRef:
   apiGroup: rbac.authorization.k8s.io
@@ -151,7 +151,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana-test
   namespace: default
 ---
@@ -176,13 +176,13 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana
   namespace: default
 ---
 apiVersion: v1
 data:
-  admin-password: SGRkNkpIY0VXSzdzbmJOc0tXRTA1ZTR3VlhVb0VUbkFDSUR2Z2FqUA==
+  admin-password: Z09VRldJcWZTOXpVY0FIaXdGMUlJazliUDZjYnFScjRhMXluMmE2MA==
   admin-user: YWRtaW4=
   ldap-toml: ""
 kind: Secret
@@ -192,7 +192,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana
   namespace: default
 type: Opaque
@@ -205,7 +205,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana
   namespace: default
 spec:
@@ -227,7 +227,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana
   namespace: default
 spec:
@@ -241,10 +241,10 @@ spec:
   template:
     metadata:
       annotations:
-        checksum/config: 6bc2e7e7d087da5a2ef1d70f10761fe49925764dd27383de416bd6bed64bb447
+        checksum/config: a88b260426938bca31b916401debf6146b6538e8ee65ab909129ce78f77b3095
         checksum/dashboards-json-config: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
         checksum/sc-dashboard-provider-config: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
-        checksum/secret: a1dced823c56a652a928f9eeada0e9938321e8f097a0abab753d35d8926606af
+        checksum/secret: 1dea83c5f8cb240494cd29aa4f6993199891a6cef938f1dfee994d3baefe4e7a
       labels:
         app.kubernetes.io/instance: grafana
         app.kubernetes.io/name: grafana
@@ -309,7 +309,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana-test
   namespace: default
 spec:
@@ -346,7 +346,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana
   namespace: default
 spec:
@@ -395,7 +395,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
     app.kubernetes.io/name: grafana
     app.kubernetes.io/version: 7.0.3
-    helm.sh/chart: grafana-5.3.2
+    helm.sh/chart: grafana-5.3.3
   name: grafana-test
   namespace: default
 spec:
